@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-kld45cyonuxfwj6f7@$(u$%-n03-kyj=x#gkhzl)==p8bz4shw
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'vidly-app-nj.herokuapp.com'
+    'vidly-app-nj.herokuapp.com',
+    '127.0.0.1'
 ]
 
 
