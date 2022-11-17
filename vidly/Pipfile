@@ -4,7 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
+django = "~=4.0.6"
+pylint-django = "*"
+django-tastypie = "*"
+gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 

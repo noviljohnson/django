@@ -15,6 +15,8 @@ from . import views
 # use relative urls
 # url config
 
+app_name = 'movies'
 urlpatterns = [
-    path('', views.index, name='index')           # empty string in first arg is root of the app
+    path('', views.index, name='index'),           # empty string in first arg is root of the app
+    path('<int:movie_id>', views.detail, name='detail')
 ]
